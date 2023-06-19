@@ -7,13 +7,13 @@ h1 {
     font-size: 50px;
 }
 
-.orange-color {
-    color: orange;
+h2 {
+    font-size: 30px;
 }
 
-section {
-    display: flex;
-    margin-bottom: 150px;
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .half-width-1 {
@@ -30,6 +30,19 @@ section {
     width: 80%;
 }
 
+.orange-color {
+    color: orange;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+
+
+
+
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -39,10 +52,6 @@ section {
     font-weight: 700;
 }
 
-.top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
 
 .link-button-2 {
     text-decoration: none;
@@ -57,4 +66,26 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.half-width {
+    margin: 5%;
+    box-shadow: 20px 20px 40px black;
+    padding-left: 10px;
+    border-radius: 10px;
+
+}
+
+#developer-1 {
+    border-left: 5px solid tomato;
+    border-top: 5px solid tomato;
+}
+
+#developer-2 {
+    border-left: 5px solid blue;
+    border-top: 5px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
